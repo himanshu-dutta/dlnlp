@@ -10,7 +10,7 @@ import numpy as np
 data = np.loadtxt("./data.csv", delimiter=",", dtype=np.float32)
 Xs, Ys = data[:, :-1], data[:, -1]
 num_inputs = Xs.shape[1]
-num_epochs = 100
+num_epochs = 20
 
 model = Sequential(
     Linear(num_inputs, 1024),
@@ -23,14 +23,12 @@ optim = SGD(model.params, 1e-5)
 
 for ep in range(num_epochs):
     outs = model(Xs)
-    print(Xs.shape, outs.shape)
 
     optim.zero_grad()
-
     loss = loss_fn(outs, Ys)
     loss_fn.backward()
     optim.step()
 
-    acc = accuracy(Ys, outs)
+    acc = accuracy(Ys, outs > 0.5)
 
     print(f"Model Loss: {loss.item()}, Training accuracy: {acc.item()}")
