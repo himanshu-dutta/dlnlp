@@ -21,6 +21,7 @@ class ReLU:
     def _backward(self) -> Callable[[np.ndarray], np.ndarray]:
         def _inner(grads_in: np.ndarray) -> np.ndarray:
             grads_out = grads_in * np.where(self._inp > 0, 1, 0)
+            # print(f"ReLU:: grads_in.shape: {grads_in.shape}")
             # print(f"ReLU:: calling grad function: {self._grad_fn}")
             self._grad_fn(grads_out)
 

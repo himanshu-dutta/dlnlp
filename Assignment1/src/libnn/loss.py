@@ -35,5 +35,6 @@ class BinaryCrossEntropy:
         grads_out = grads_in * -(
             self.target * (1 / self.input) - (1 - self.target) * (1 / (1 - self.input))
         )
+        # print(f"BCE Loss:: grads_out.shape: {grads_out.shape}")
         mem.backward_fn(grads_out)
         mem.backward_fn = mem.linear_backward
