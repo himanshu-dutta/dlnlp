@@ -61,7 +61,7 @@ for idx, (train_ids, test_ids) in enumerate(skf.split(Xs, Ys)):
         test_recall = recall(Ys_test, preds > 0.5)
 
     print(
-        f"Fold[{idx}/{n_splits}] Model Loss: {loss.item():.4f}, Training accuracy: {train_acc.item():.4f}, Test accuracy: {test_acc.item():.4f}",
+        f"Fold[{idx+1}/{n_splits}] Model Loss: {loss.item():.4f}, Training accuracy: {train_acc.item():.4f}, Test accuracy: {test_acc.item():.4f}",
         f"Training precision: {train_prec.item():.4f}, Test precision: {test_prec.item():.4f}",
         f"Training recall: {train_recall.item():.4f}, Test recall: {test_recall.item():.4f}",
     )
