@@ -12,7 +12,6 @@ def precision(true: np.ndarray, pred: np.ndarray) -> np.ndarray:
     assert true.shape == pred.shape, "shape should be same"
     TP = ((pred == 1) & (true == 1)).sum()
     FP = ((pred == 1) & (true == 0)).sum()
-    print(f"TP: {TP}, FP: {FP}")
     precision = TP / (TP + FP)
     return precision
 

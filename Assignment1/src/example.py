@@ -17,9 +17,9 @@ num_inputs = Xs_train.shape[1]
 num_epochs = 100
 
 model = Sequential(
-    Linear(num_inputs, 1024),
+    Linear(num_inputs, 16),
     ReLU(),
-    Linear(1024, 1),
+    Linear(16, 1),
     Sigmoid(),
 )
 loss_fn = BCELoss()
