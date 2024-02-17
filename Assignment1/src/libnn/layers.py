@@ -6,10 +6,10 @@ from .common import Param
 
 
 class Linear:
-    def __init__(self, in_features: int, out_features: int, bias: bool = True):
+    def __init__(self, in_features: int, out_features: int, bias: bool = False):
         """
         w: (of, if)
-        b: (of, 1)
+        b: (of, 11)
         inp: (BS, if)
         out: (BS, of)
         """
@@ -48,9 +48,10 @@ class Linear:
             b_grad = grads_in
             grads_out = grads_in @ self.w.d
 
-            self.w.grad = w_grad / self.inp.shape[0]
-            if hasattr(self, "b"):
-                self.b.grad = b_grad / self.inp.shape[0]
+            self.w.grad = w_grad.mean(axis=0)
+            self.b.grad = b_grad.mean(axis=0)
+
+            # print(f"Linear:: calling grad function: {self._grad_fn}")
             self._grad_fn(grads_out)
 
         return _inner
