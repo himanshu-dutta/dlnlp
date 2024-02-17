@@ -11,7 +11,6 @@ class SGD:
 
     def step(self) -> None:
         for param in self.params:
-            print(f"{param}: {param.grad}")
             param.v = (self.momentum_coeff * param.v) + (self.lr * param.grad)
             param.d -= param.v
 
