@@ -9,7 +9,7 @@ class Linear:
     def __init__(self, in_features: int, out_features: int, bias: bool = False):
         """
         w: (of, if)
-        b: (of, )
+        b: (of, 1)
         inp: (BS, if)
         out: (BS, of)
         """
@@ -19,10 +19,15 @@ class Linear:
 
         self._init_params()
 
+    def xavier_init(self, size):
+        in_dim = size[0]
+        xavier_stddev = 1.0 / np.sqrt(in_dim / 2.0)
+        return np.random.normal(0, xavier_stddev, size)
+
     def _init_params(self) -> None:
-        self.w = Param(np.random.normal(size=(self.out_features, self.in_features)))
+        self.w = Param(self.xavier_init(size=(self.out_features, self.in_features)))
         if self.bias:
-            self.b = Param(np.random.normal(size=(self.out_features)))
+            self.b = Param(self.xavier_init(size=(self.out_features, 1)))
 
     def __call__(self, x: np.ndarray) -> np.ndarray:
         out = self.forward(x)
@@ -39,19 +44,21 @@ class Linear:
 
     def _backward(self) -> Callable[[np.ndarray], np.ndarray]:
         def _inner(grads_in: np.ndarray) -> np.ndarray:
-            # print(
-            #     f"Linear:: grads_in.shape: {grads_in.shape}, self.inp.shape: {self.inp.shape}, self.w.d.shape: {self.w.d.shape}",
-            # )
-
             w_grad = grads_in.T @ self.inp
             b_grad = grads_in
             grads_out = grads_in @ self.w.d
 
+<<<<<<< HEAD
             self.w.grad = w_grad.mean(axis=0)
             if self.bias:
                 self.b.grad = b_grad.mean(axis=0)
 
             # print(f"Linear:: calling grad function: {self._grad_fn}")
+=======
+            self.w.grad = w_grad / self.inp.shape[0]
+            if hasattr(self, "b"):
+                self.b.grad = b_grad / self.inp.shape[0]
+>>>>>>> 900f302 (v2)
             self._grad_fn(grads_out)
 
         return _inner
@@ -61,25 +68,3 @@ class Linear:
         if self.bias:
             return [self.w, self.b]
         return [self.w]
-
-
-class RNNUnit:
-    def __init__(self, in_features, out_features):
-        pass
-
-    def forward(self):
-        pass
-
-    def _backward(self):
-        pass
-
-
-class RNN:
-    def __init__(self, in_features, out_features):
-        pass
-
-    def forward(self):
-        pass
-
-    def _backward(self):
-        pass
