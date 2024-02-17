@@ -10,7 +10,7 @@ def main(args):
         args.threshold,
         nhidden=2,
     )
-    model.load(args.load_path + "/model.pkl")
+    model.load(args.load_path)
     model.weights()
     print("\033[92mLoaded model for prediction...\033[0m")
 
