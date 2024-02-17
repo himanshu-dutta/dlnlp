@@ -11,6 +11,7 @@ tqdm = "*"
 torch = "*"
 pandas = "*"
 matplotlib = "*"
+streamlit = "*"
 
 [dev-packages]
 torch = "*"

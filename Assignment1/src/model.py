@@ -98,6 +98,12 @@ class PalindromeModel:
         if plt_clf_report:
             print(classification_report(Ys, outs_cat))
 
+        return {
+            "accuracy": eval_acc,
+            "precision": eval_prec,
+            "recall": eval_recall,
+        }
+
     def weights(self):
         print("Output-Hidden Weights:", self.clf.layers[2].params[0].d)
         print("Hidden-Input Weights:", self.clf.layers[0].params[0].d)
