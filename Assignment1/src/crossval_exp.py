@@ -19,18 +19,22 @@ from imblearn.over_sampling import SMOTE
 from tqdm import tqdm
 from sklearn.utils import shuffle
 
-seed = 2
+seed = 2023
 np.random.seed(seed)
 
-su = SMOTE(random_state=seed)
+
 data = np.loadtxt("./data.csv", delimiter=",", dtype=int)
 data = data.astype(float)
 Xs, Ys = data[:, :-1], data[:, -1]
+su = SMOTE(random_state=seed)
 Xs, Ys = su.fit_resample(Xs, Ys)
+
 Xs, Ys = shuffle(Xs, Ys)
+Ys = 1.0 - Ys.reshape((-1, 1))
 
 THRESHOLD = 0.4
 SAVE_PATH = "./artifacts/crossval_exp"
+OVERSAMPLING = False
 
 n_splits = 4
 skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=seed)
@@ -42,10 +46,18 @@ best_recall = []
 
 for idx, (train_ids, test_ids) in enumerate(skf.split(Xs, Ys)):
     Xs_train, Ys_train = Xs[train_ids, :], Ys[train_ids]
+
+    if OVERSAMPLING:
+        su = SMOTE(random_state=seed)
+        Xs_train, Ys_train = su.fit_resample(Xs_train, Ys_train)
+
     Xs_test, Ys_test = Xs[test_ids, :], Ys[test_ids]
 
     Ys_train = Ys_train.reshape((-1, 1))
     Ys_test = Ys_test.reshape((-1, 1))
+
+    print("Number of training examples: ", Ys_train.shape[0])
+    print("Number of testing examples: ", Ys_test.shape[0])
 
     num_inputs = Xs_train.shape[1]
     num_epochs = 1000

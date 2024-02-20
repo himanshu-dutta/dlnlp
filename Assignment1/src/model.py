@@ -48,9 +48,6 @@ class PalindromeModel:
             momentum_coeff=momentum_coeff,
         )
 
-    def forward(self, inp: np.ndarray):
-        pass
-
     def fit(
         self,
         Xs: np.ndarray,
@@ -81,7 +78,7 @@ class PalindromeModel:
 
     def evaluate(self, Xs: np.ndarray, Ys: np.ndarray, plt_clf_report: bool = False):
         outs = self.clf(Xs)
-        outs_cat = outs > self.threshold
+        outs_cat = (outs > self.threshold).astype(float)
 
         self.optim.zero_grad()
         eval_loss = self.loss_fn(outs, Ys)

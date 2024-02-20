@@ -19,7 +19,7 @@ def main(args):
         inp_arr = np.array([float(b) for b in list(inp)], dtype=float).reshape((1, 10))
         res = model.predict(inp_arr).item()
 
-        print(f"\033[96m{inp}: {'Palindrome' if res == 1 else 'Not Palindrome'}\033[0m")
+        print(f"\033[96m{inp}: {'Palindrome' if res == 0 else 'Not Palindrome'}\033[0m")
 
 
 if __name__ == "__main__":

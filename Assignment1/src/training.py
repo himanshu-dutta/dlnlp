@@ -14,7 +14,7 @@ def load_data(path: str, seed: int):
     Xs, Ys = data[:, :-1], data[:, -1]
     Xs, Ys = su.fit_resample(Xs, Ys)
     Xs, Ys = shuffle(Xs, Ys)
-    Ys = Ys.reshape((-1, 1))
+    Ys = 1.0 - Ys.reshape((-1, 1))
     return Xs, Ys
 
 
@@ -47,7 +47,7 @@ def main(args):
     model.weights()
     model.weight_visualization()
 
-    model.save(args.save_path + "/model.pkl")
+    model.save(args.save_path)
 
 
 if __name__ == "__main__":

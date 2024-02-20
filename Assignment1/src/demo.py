@@ -6,9 +6,11 @@ import numpy as np
 def main():
     st.title("Palindrome Prediction Demo")
 
+    st.image("./artifacts/img.jpg")
+
     model = PalindromeModel(10, threshold=0.4, nhidden=2)
     load_path = st.text_input("Enter the path to load the model:", "artifacts/")
-    model.load(load_path + "model.pkl")
+    model.load(load_path + "best_model.pkl")
 
     st.success("Model loaded successfully!")
 
@@ -20,7 +22,7 @@ def main():
                 [float(b) for b in list(user_input)], dtype=float
             ).reshape((1, 10))
             prediction = model.predict(inp_arr).item()
-            result = "Palindrome" if prediction == 1 else "Not Palindrome"
+            result = "Palindrome" if prediction == 0 else "Not Palindrome"
             st.write(f"Input: {user_input}, Prediction: {result}")
         except ValueError:
             st.error("Invalid input. Please enter a valid binary string of 10 bits.")
