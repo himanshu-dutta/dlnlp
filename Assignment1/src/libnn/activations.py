@@ -16,7 +16,7 @@ class ReLU:
 
     def forward(self, x: np.ndarray) -> np.ndarray:
         self._inp = x
-        return np.maximum(0, x)
+        return np.maximum(0.0, x)
 
     def _backward(self) -> Callable[[np.ndarray], np.ndarray]:
         def _inner(grads_in: np.ndarray) -> np.ndarray:
@@ -60,7 +60,7 @@ class Sigmoid:
         return out
 
     def forward(self, x: np.ndarray) -> np.ndarray:
-        self._sigma = 1 / (1 + np.exp(-x))
+        self._sigma = 1.0 / (1.0 + np.exp(-x))
         return self._sigma
 
     def _backward(self) -> Callable[[np.ndarray], np.ndarray]:

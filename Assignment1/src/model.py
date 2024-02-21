@@ -59,7 +59,7 @@ class PalindromeModel:
 
         for ep in range(nepochs):
             outs = self.clf(Xs)
-            outs_cat = outs > self.threshold
+            outs_cat = (outs >= self.threshold).astype(float)
 
             self.optim.zero_grad()
             loss = self.loss_fn(outs, Ys)
@@ -78,7 +78,7 @@ class PalindromeModel:
 
     def evaluate(self, Xs: np.ndarray, Ys: np.ndarray, plt_clf_report: bool = False):
         outs = self.clf(Xs)
-        outs_cat = (outs > self.threshold).astype(float)
+        outs_cat = (outs >= self.threshold).astype(float)
 
         self.optim.zero_grad()
         eval_loss = self.loss_fn(outs, Ys)
@@ -118,7 +118,7 @@ class PalindromeModel:
 
     def predict(self, inps: np.ndarray):
         outs = self.clf(inps)
-        outs_cat = outs > self.threshold
+        outs_cat = (outs >= self.threshold).astype(float)
 
         self.optim.zero_grad()
         _ = self.loss_fn(outs, outs_cat)

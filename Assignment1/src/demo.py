@@ -9,8 +9,10 @@ def main():
     st.image("./artifacts/img.jpg")
 
     model = PalindromeModel(10, threshold=0.4, nhidden=2)
-    load_path = st.text_input("Enter the path to load the model:", "artifacts/")
-    model.load(load_path + "best_model.pkl")
+    load_path = st.text_input(
+        "Enter the path to load the model:", "artifacts/best_model.pkl"
+    )
+    model.load(load_path)
 
     st.success("Model loaded successfully!")
 
