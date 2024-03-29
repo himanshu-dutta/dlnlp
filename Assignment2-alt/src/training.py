@@ -18,6 +18,9 @@ def training(args):
     train_dl = NounChunkDataLoader(train_ds, batch_size=args.batch_size)
     test_dl = NounChunkDataLoader(test_ds, batch_size=args.batch_size)
 
+    print("✨ Number of training examples: ", len(train_ds))
+    print("✨ Number of testing examples: ", len(test_ds))
+
     model = RecurrentPerceptron(args.num_inputs)
 
     pbar = tqdm(range(args.epochs))

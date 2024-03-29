@@ -133,9 +133,9 @@ class RecurrentPerceptron:
             dl_db_cache.append(dl_db)
             dl_dv_cache.append(dl_dv)
 
-        dl_dw = np.stack(dl_dw_cache, axis=0).mean(axis=0)
-        dl_db = np.stack(dl_db_cache, axis=0).mean()
-        dl_dv = np.stack(dl_dv_cache, axis=0).mean()
+        dl_dw = np.stack(dl_dw_cache, axis=0).sum(axis=0)
+        dl_db = np.stack(dl_db_cache, axis=0).sum()
+        dl_dv = np.stack(dl_dv_cache, axis=0).sum()
 
         self.cache["dl_dw"] = dl_dw
         self.cache["dl_db"] = dl_db

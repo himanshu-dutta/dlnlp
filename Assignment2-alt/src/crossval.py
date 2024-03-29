@@ -137,7 +137,7 @@ if __name__ == "__main__":
     parser.add_argument("--folds", type=int, default=4)
     parser.add_argument("--batch_size", type=int, default=1)
     parser.add_argument("--num_inputs", type=int, default=9)
-    parser.add_argument("--epochs", type=int, default=10)
+    parser.add_argument("--epochs", type=int, default=3)
     parser.add_argument("--learning_rate", type=float, default=1e-2)
     parser.add_argument("--momentum_coeff", type=float, default=1e-1)
 
