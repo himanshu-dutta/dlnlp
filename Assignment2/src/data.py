@@ -15,17 +15,88 @@ class NounChunkDataset:
         pos_tags: list[list[int]],
         chunk_tags: list[list[int]] = None,
         num_token_types: int = 4,
+        _filter: bool = False,
+        _replace: bool = False,
     ):
-        self.tokens, self.pos_tags, self.chunk_tags = tokens, pos_tags, chunk_tags
+        assert (not _filter) or (
+            not _replace
+        ), "can't have both filter and replace operation"
+
+        self.tokens, self.pos_tags, self.chunk_tags = list(), list(), list()
+        if _filter:
+            for _t, _p, _c in zip(tokens, pos_tags, chunk_tags):
+                if self._filter(_t, _p, _c):
+                    self.tokens.append(_t)
+                    self.pos_tags.append(_p)
+                    self.chunk_tags.append(_c)
+        if _replace:
+            for _t, _p, _c in zip(tokens, pos_tags, chunk_tags):
+                t, p, c = self._replace(_t, _p, _c)
+                self.tokens.append(t)
+                self.pos_tags.append(p)
+                self.chunk_tags.append(c)
+        else:
+            self.tokens, self.pos_tags, self.chunk_tags = tokens, pos_tags, chunk_tags
         self.num_token_types = num_token_types
 
     @classmethod
-    def from_file(cls, path: str):
+    def from_file(
+        cls,
+        path: str,
+        _filter: bool = False,
+        _replace: bool = False,
+    ):
         tokens, pos_tags, chunk_tags = cls._load_from_file(path)
         num_token_types = 0
         for pt in pos_tags:
             num_token_types = max([num_token_types, max(pt)])
-        return cls(tokens, pos_tags, chunk_tags, num_token_types)
+        return cls(tokens, pos_tags, chunk_tags, num_token_types, _filter, _replace)
+
+    @staticmethod
+    def _replace(tokens, pos_tags, chunk_tags):
+        def replace_pattern(pos_tags_s):
+            pattern = r"23*1"
+            matches = re.finditer(pattern, pos_tags_s)
+            chunk_tags_re = ""
+            prev_end = 0
+            for match in matches:
+                start, end = match.span()
+                match_length = end - start
+                chunk_tags_re += "1" * (start - prev_end)
+                chunk_tags_re += "1" + "0" * (match_length - 1)
+                prev_end = end
+            chunk_tags_re += "1" * (len(pos_tags_s) - prev_end)
+            return chunk_tags_re
+
+        pos_mapping = {"NN": 1, "DT": 2, "JJ": 3, "OT": 4}
+        pos_tags_s = "".join([str(v) for v in pos_tags])
+        chunk_tags_re = replace_pattern(pos_tags_s)
+        chunk_tags = [int(v) for v in list(chunk_tags_re)]
+
+        return tokens, pos_tags, chunk_tags
+
+    @staticmethod
+    def _filter(tokens, pos_tags, chunk_tags):
+        def replace_pattern(pos_tags_s):
+            pattern = r"23*1"
+            matches = re.finditer(pattern, pos_tags_s)
+            chunk_tags_re = ""
+            prev_end = 0
+            for match in matches:
+                start, end = match.span()
+                match_length = end - start
+                chunk_tags_re += "1" * (start - prev_end)
+                chunk_tags_re += "1" + "0" * (match_length - 1)
+                prev_end = end
+            chunk_tags_re += "1" * (len(pos_tags_s) - prev_end)
+            return chunk_tags_re
+
+        pos_mapping = {"NN": 1, "DT": 2, "JJ": 3, "OT": 4}
+        pos_tags_s = "".join([str(v) for v in pos_tags])
+        chunk_tags_s = "".join([str(v) for v in chunk_tags])
+        chunk_tags_re = replace_pattern(pos_tags_s)
+
+        return chunk_tags_s == chunk_tags_re
 
     @staticmethod
     def _load_from_file(path: str):
@@ -137,17 +208,6 @@ class NounChunkDataset:
             self.pos_tags[idx],
             self.chunk_tags[idx] if self.chunk_tags is not None else None,
         )
-        # chunk_tags = self.mark_noun_chunks(chunk_tags)
-        # chunk_tags = self.mark_nouns(pos_tags, chunk_tags)
-
-        # tokens, pos_tags, chunk_tags = self.preprocess(tokens, pos_tags, chunk_tags)
-
-        # if len(tokens) < 5 or (chunk_tags[:-1] == chunk_tags[1:]):
-        #     tokens, pos_tags, chunk_tags = (
-        #         self.tokens[idx],
-        #         self.pos_tags[idx],
-        #         self.chunk_tags[idx] if self.chunk_tags is not None else None,
-        #     )
 
         current_inp = self._onehot_encode(
             np.array(pos_tags, dtype=int),
@@ -206,8 +266,6 @@ class NounChunkDataLoader:
         keys = batch[0].keys()
         for key in keys:
             val = [item[key] for item in batch]
-            # if isinstance(val[0], np.ndarray):
-            #     val = np.stack(val, axis=0)
             batch_collated[key] = val
         return batch_collated
 
