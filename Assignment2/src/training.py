@@ -13,8 +13,8 @@ import argparse
 
 
 def training(args):
-    train_ds = NounChunkDataset.from_file(args.train_ds_path)
-    test_ds = NounChunkDataset.from_file(args.test_ds_path)
+    train_ds = NounChunkDataset.from_file(args.train_ds_path, _replace=False)
+    test_ds = NounChunkDataset.from_file(args.test_ds_path, _replace=False)
     train_dl = NounChunkDataLoader(train_ds, batch_size=args.batch_size)
     test_dl = NounChunkDataLoader(test_ds, batch_size=args.batch_size)
 
@@ -35,6 +35,10 @@ def training(args):
         for batch in train_dl:
             inputs = np.stack(batch["inputs"], axis=0)
             outputs = np.stack(batch["outputs"], axis=0)
+
+            if inputs.shape[1] < 10:
+                continue
+
             preds = model(inputs, RecurrentPerceptronStage.TRAIN)
             labels = (preds > THRESHOLD).astype(outputs.dtype)
             loss = model.loss_bwd(outputs, RecurrentPerceptronStage.TRAIN, 1.0)
@@ -48,6 +52,10 @@ def training(args):
         for batch in test_dl:
             inputs = np.stack(batch["inputs"], axis=0)
             outputs = np.stack(batch["outputs"], axis=0)
+
+            if inputs.shape[1] < 10:
+                continue
+
             preds = model(inputs, RecurrentPerceptronStage.EVAL)
             labels = (preds > THRESHOLD).astype(outputs.dtype)
             loss = model.loss_bwd(outputs, RecurrentPerceptronStage.EVAL)

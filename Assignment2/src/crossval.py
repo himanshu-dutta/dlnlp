@@ -45,7 +45,7 @@ def plot_crossval_graph(stats: list[float], name: str, save_path: str = None):
 
 
 def crossval_exp(args):
-    ds = NounChunkDataset.from_file(args.ds_path)
+    ds = NounChunkDataset.from_file(args.ds_path, _replace=False)
     splits = crossval_splits(ds, args.folds)
     fold_metrics = {
         "accuracy": list(),
@@ -71,6 +71,10 @@ def crossval_exp(args):
             for batch in train_dl:
                 inputs = np.stack(batch["inputs"], axis=0)
                 outputs = np.stack(batch["outputs"], axis=0)
+
+                if inputs.shape[1] < 10:
+                    continue
+
                 preds = model(inputs, RecurrentPerceptronStage.TRAIN)
                 loss = model.loss_bwd(outputs, RecurrentPerceptronStage.TRAIN, 1.0)
                 model.update(args.learning_rate, args.momentum_coeff)
@@ -87,6 +91,10 @@ def crossval_exp(args):
             for batch in test_dl:
                 inputs = np.stack(batch["inputs"], axis=0)
                 outputs = np.stack(batch["outputs"], axis=0)
+
+                if inputs.shape[1] < 10:
+                    continue
+
                 preds = model(inputs, RecurrentPerceptronStage.EVAL)
                 labels = (preds > THRESHOLD).astype(outputs.dtype).reshape((-1, 1))
                 loss = model.loss_bwd(outputs, RecurrentPerceptronStage.EVAL)
