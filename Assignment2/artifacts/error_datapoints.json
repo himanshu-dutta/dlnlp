@@ -1,0 +1,4666 @@
+[
+  {
+    "tokens": [
+      [
+        "20-1",
+        "Fernando",
+        "Hierro",
+        "20-1",
+        "Ivan",
+        "de"
+      ]
+    ],
+    "pos_tags": [
+      [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "OTTAWA",
+        "AT",
+        "EDMONTON"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "AMERICAN",
+        "FOOTBALL",
+        "CONFERENCE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Oats",
+        "Rye",
+        "Flaxseed",
+        "Canola",
+        "Corn"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Visible",
+        "Supplies",
+        "Farmers",
+        "Deliveries"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "40-1",
+        "Chendo",
+        "Porlan",
+        "33-1",
+        "Miguel",
+        "Nadal"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "SOCCER",
+        "-",
+        "ENGLISH",
+        "F.A.",
+        "CUP",
+        "SECOND",
+        "ROUND",
+        "RESULT",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NY",
+        "RANGERS",
+        "AT",
+        "TORONTO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "LA",
+        "CLIPPERS",
+        "AT",
+        "NEW",
+        "YORK"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "DALLAS",
+        "AT",
+        "ARIZONA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Cyberspace",
+        "squabbles",
+        "overshadow",
+        "copyright",
+        "talks",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "National",
+        "Football",
+        "League"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "PF",
+        "PA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "16-1",
+        "Roberto",
+        "Carlos",
+        "16-1"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CHARLOTTE",
+        "AT",
+        "PORTLAND"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CRICKET",
+        "-",
+        "PAKISTAN",
+        "V",
+        "NEW",
+        "ZEALAND",
+        "ONE-DAY",
+        "SCOREBOARD",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        4,
+        1,
+        1,
+        3,
+        1,
+        3,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "GENERAL",
+        "OBLIGATION",
+        "BONDS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "PHILADELPHIA",
+        "AT",
+        "HOUSTON"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "FREESTYLE",
+        "SKIING-WORLD",
+        "CUP",
+        "MOGUL",
+        "RESULTS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "BUFFALO",
+        "AT",
+        "SEATTLE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "LUXEMBOURG",
+        "CHRISTMAS",
+        "MARKET",
+        "GOES",
+        "ON",
+        "WORLD",
+        "WIDE",
+        "WEB",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "PHOENIX",
+        "AT",
+        "NEW",
+        "JERSEY"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NORDIC",
+        "SKIING-WORLD",
+        "CUP",
+        "BIATHLON",
+        "RESULTS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "PF",
+        "PA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "20-1",
+        "Luis",
+        "Milla",
+        "25-1",
+        "Luis"
+      ]
+    ],
+    "pos_tags": [
+      [
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "DATE",
+        "PM",
+        "CLOSE",
+        "FIXED",
+        "MINIMUM",
+        "AT",
+        "1230",
+        "CST"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "KANSAS",
+        "CITY",
+        "AT",
+        "OAKLAND"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "16-1",
+        "Manolo",
+        "Sanchis",
+        "14-1",
+        "Gheorghe"
+      ]
+    ],
+    "pos_tags": [
+      [
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Port",
+        "Loading",
+        "Waiting"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CATTLE",
+        "CALVES",
+        "HOGS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "DENVER",
+        "AT",
+        "GREEN",
+        "BAY"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "First",
+        "Union",
+        "Capital",
+        "Markets",
+        "Corp.",
+        "-",
+        "NJ"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Prudential",
+        "Securities",
+        "Incorporated"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "14-1",
+        "Victor",
+        "Sanchez",
+        "12-1",
+        "Guillermo"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "INDIANA",
+        "AT",
+        "GOLDEN",
+        "STATE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "WASHINGTON",
+        "AT",
+        "NY",
+        "ISLANDERS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Real",
+        "Madrid",
+        "Barcelona"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Pace",
+        "outdistanced",
+        "three",
+        "senior",
+        "finalists",
+        "--",
+        "Virginia",
+        "Tech",
+        "defensive",
+        "end",
+        "Cornell",
+        "Brown",
+        ",",
+        "Arizona",
+        "State",
+        "offensive",
+        "tackle",
+        "Juan",
+        "Roque",
+        "and",
+        "defensive",
+        "end",
+        "Jared",
+        "Tomich",
+        "of",
+        "Nebraska",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        4,
+        4,
+        3,
+        1,
+        4,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        1,
+        1,
+        4,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Delphis",
+        "Hanover",
+        "weekly",
+        "municipal",
+        "bond",
+        "yields",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        3,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NEW",
+        "JERSEY",
+        "AT",
+        "BOSTON"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "PF",
+        "PA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "OTTAWA",
+        "AT",
+        "VANCOUVER"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Oats",
+        "unq",
+        "unq",
+        "unq",
+        "unq"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        1,
+        3
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "5-1",
+        "Pedrag",
+        "Mijatovic",
+        "7-1",
+        "Luis",
+        "Figo"
+      ]
+    ],
+    "pos_tags": [
+      [
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "PITTSBURGH",
+        "AT",
+        "WASHINGTON"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "PF",
+        "PA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "PF",
+        "PA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NY",
+        "JETS",
+        "AT",
+        "NEW",
+        "ENGLAND"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "16-1",
+        "Jose",
+        "Amavisca",
+        "14-1",
+        "Roger",
+        "Garcia"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "VANCOUVER",
+        "AT",
+        "SAN",
+        "ANTONIO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CZECH",
+        "VICE-PM",
+        "SEES",
+        "WIDER",
+        "DEBATE",
+        "AT",
+        "PARTY",
+        "CONGRESS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "33-1",
+        "Fernando",
+        "Sanz",
+        "25-1"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NY",
+        "GIANTS",
+        "AT",
+        "MIAMI"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "7-1",
+        "Raul",
+        "Gonzalez",
+        "7-1",
+        "Juan",
+        "Pizzi"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NATIONAL",
+        "FOOTBALL",
+        "CONFERENCE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "ST",
+        "LOUIS",
+        "AT",
+        "COLORADO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Canadian",
+        "grain",
+        "statistics",
+        "weekly",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        3,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "MILWAUKEE",
+        "AT",
+        "WASHINGTON"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "PHOENIX",
+        "AT",
+        "SACRAMENTO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "POLAND",
+        "GOT",
+        "MONEY",
+        "FROM",
+        "POST-WAR",
+        "SWISS",
+        "ACCOUNTS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "DETROIT",
+        "AT",
+        "NEW",
+        "JERSEY"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "SOCCER",
+        "SHOWCASE-FANS",
+        "FACE",
+        "BREATHALYSER",
+        "TESTS",
+        ",",
+        "PAPER",
+        "SAYS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "JACKSONVILLE",
+        "AT",
+        "HOUSTON"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Exports",
+        "Domestic",
+        "Disappearance"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Electronic",
+        "Data",
+        "bags",
+        "flight",
+        "data",
+        "contract",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "German",
+        "Axel",
+        "Schulz",
+        "outpointed",
+        "Cuba",
+        "'s",
+        "Jose",
+        "Ribalta",
+        "in",
+        "their",
+        "International",
+        "Boxing",
+        "Federation",
+        "non-title",
+        "10-round",
+        "heavyweight",
+        "fight",
+        "on",
+        "Saturday",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        3,
+        1,
+        4,
+        1,
+        1,
+        4,
+        4,
+        1,
+        1,
+        1,
+        3,
+        3,
+        3,
+        1,
+        4,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "VANCOUVER",
+        "AT",
+        "DALLAS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "MONTREAL",
+        "AT",
+        "CHICAGO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "SOCCER",
+        "-",
+        "ITALIAN",
+        "FIRST",
+        "DIVISION",
+        "MATCHES",
+        "THIS",
+        "WEEKEND",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CHICAGO",
+        "AT",
+        "MONTREAL"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "TAMPA",
+        "BAY",
+        "AT",
+        "SAN",
+        "JOSE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "40-1",
+        "Rafael",
+        "Alkorta",
+        "33-1",
+        "Albert"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Simona",
+        "de",
+        "Logu"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "MINNESOTA",
+        "AT",
+        "UTAH"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "12-1",
+        "Fernando",
+        "Redondo",
+        "9-1",
+        "Giovanni"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Iowa-S",
+        "Minn",
+        "feedlot",
+        "cattle",
+        "market",
+        "not",
+        "tested-",
+        "USDA",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        3,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Delphis",
+        "Hanover",
+        "weekly",
+        "muni",
+        "bond",
+        "yields",
+        "calculated",
+        "Dec",
+        "5"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        3,
+        1,
+        1,
+        4,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "ANAHEIM",
+        "AT",
+        "BUFFALO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Radio",
+        "Romania",
+        "news",
+        "headlines",
+        ":"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "BOBSLEIGH-WORLD",
+        "CUP",
+        "TWO-MAN",
+        "RESULTS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Sorghum",
+        "unq",
+        "unq",
+        "unq",
+        "unq"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        1,
+        3
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CONTRACT",
+        "PREVIOUS",
+        "CLOSE",
+        "PM",
+        "CLOSE",
+        "PM",
+        "CLOSING",
+        "RANGE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CAROLINA",
+        "AT",
+        "SAN",
+        "FRANCISCO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "5-2",
+        "Real",
+        "Madrid",
+        "Real",
+        "Madrid"
+      ]
+    ],
+    "pos_tags": [
+      [
+        4,
+        3,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NEW",
+        "YORK",
+        "AT",
+        "MIAMI"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "New",
+        "Zealand",
+        "innings"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "COLORADO",
+        "AT",
+        "LOS",
+        "ANGELES"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "MIAMI",
+        "AT",
+        "CHICAGO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "ST",
+        "LOUIS",
+        "AT",
+        "CHICAGO"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Aaa",
+        "Aa",
+        "A",
+        "Baa"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "ANAHEIM",
+        "AT",
+        "PITTSBURGH"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "9-2",
+        "Davor",
+        "Suker",
+        "9-2",
+        "Ronaldo"
+      ]
+    ],
+    "pos_tags": [
+      [
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "MINNESOTA",
+        "AT",
+        "DETROIT"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "STEEL",
+        "OUTPUT",
+        "Sept",
+        "Sept",
+        "Apr-Sept",
+        "Apr-Sept"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "F.A.",
+        "Challenge",
+        "Cup",
+        "second",
+        "round"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "WASHINGTON",
+        "AT",
+        "TAMPA",
+        "BAY"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "PF",
+        "PA"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "NCAA",
+        "AMERICAN",
+        "FOOTBALL-OHIO",
+        "STATE",
+        "'S",
+        "PACE",
+        "FIRST",
+        "REPEAT",
+        "LOMBARDI",
+        "AWARD",
+        "WINNER",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "14-1",
+        "Barcelona",
+        "Draw"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "FREESTYLE",
+        "SKIING-WORLD",
+        "CUP",
+        "AERIALS",
+        "RESULTS",
+        "."
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "PHILADELPHIA",
+        "AT",
+        "DALLAS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "T",
+        "GF",
+        "GA",
+        "PTS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "World",
+        "Cup",
+        "biathlon",
+        "races",
+        ":"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CHARLOTTE",
+        "AT",
+        "SEATTLE"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "UTAH",
+        "AT",
+        "DENVER"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "BUFFALO",
+        "AT",
+        "HARTFORD"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Curr",
+        "Wk",
+        "Yr",
+        "Ago",
+        "Curr",
+        "Wk",
+        "Yr",
+        "to",
+        "Date",
+        "Yr",
+        "Ago"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "Pilkington",
+        "Cup",
+        "fourth",
+        "round"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "ATLANTA",
+        "AT",
+        "NEW",
+        "ORLEANS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        3,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "SAN",
+        "DIEGO",
+        "AT",
+        "PITTSBURGH"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "CLEVELAND",
+        "AT",
+        "DETROIT"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "40-1",
+        "Carlos",
+        "Secretario",
+        "28-1",
+        "Sergi",
+        "Barjuan"
+      ]
+    ],
+    "pos_tags": [
+      [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "W",
+        "L",
+        "PCT",
+        "GB"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "tokens": [
+      [
+        "ORLANDO",
+        "AT",
+        "LA",
+        "LAKERS"
+      ]
+    ],
+    "pos_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "chunk_tags": [
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "prediction": [
+      1,
+      0,
+      0,
+      0
+    ]
+  }
+]
