@@ -8,7 +8,15 @@ from config import THRESHOLD
 
 from tqdm import tqdm
 import numpy as np
-from sklearn.metrics import accuracy_score, precision_score, recall_score
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    classification_report,
+    confusion_matrix,
+    ConfusionMatrixDisplay,
+)
+import matplotlib.pyplot as plt
 import argparse
 
 
@@ -90,6 +98,32 @@ def training(args):
                 "test_recall": test_recall,
             }
         )
+
+    eval_outputs = []
+    eval_preds = []
+    for batch in test_dl:
+        inputs = np.stack(batch["inputs"], axis=0)
+        outputs = np.stack(batch["outputs"], axis=0)
+
+        if inputs.shape[1] < 10:
+            continue
+
+        preds = model(inputs, RecurrentPerceptronStage.EVAL)
+        labels = (preds > THRESHOLD).astype(outputs.dtype)
+        loss = model.loss_bwd(outputs, RecurrentPerceptronStage.EVAL)
+
+        eval_outputs.append(outputs.reshape((-1, 1)))
+        eval_preds.append(labels.reshape((-1, 1)))
+
+    eval_outputs = np.concatenate(eval_outputs, axis=0)
+    eval_preds = np.concatenate(eval_preds, axis=0)
+    print(classification_report(eval_outputs, eval_preds))
+    disp = ConfusionMatrixDisplay(
+        confusion_matrix=confusion_matrix(eval_outputs, eval_preds)
+    )
+    disp.plot()
+    plt.show()
+
     model.save_weights(args.model_ckpt_path)
     print(model.W, model.V, model.B)
 
