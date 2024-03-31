@@ -55,7 +55,7 @@ class NounChunkDataset:
     @staticmethod
     def _replace(tokens, pos_tags, chunk_tags):
         def replace_pattern(pos_tags_s):
-            pattern = r"23*1"
+            pattern = r"2?3*1"
             matches = re.finditer(pattern, pos_tags_s)
             chunk_tags_re = ""
             prev_end = 0
@@ -78,7 +78,7 @@ class NounChunkDataset:
     @staticmethod
     def _filter(tokens, pos_tags, chunk_tags):
         def replace_pattern(pos_tags_s):
-            pattern = r"23*1"
+            pattern = r"2?3*1"
             matches = re.finditer(pattern, pos_tags_s)
             chunk_tags_re = ""
             prev_end = 0
