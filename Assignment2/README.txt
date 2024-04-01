@@ -1,4 +1,4 @@
-PALINDROME NEURAL NETWORK
+IMPLEMENTATION OF RECURRENT PERCEPTRON
 
 
 ################################################

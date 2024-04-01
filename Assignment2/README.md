@@ -1,4 +1,4 @@
-# Palindrome Neural Network
+# IMPLEMENTATION OF RECURRENT PERCEPTRON
 
 ## Dependecies and Pre-requisites
 
