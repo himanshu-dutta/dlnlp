@@ -296,13 +296,17 @@ class NounChunkDataLoader:
 
 
 if __name__ == "__main__":
-    train_ds = NounChunkDataset.from_file("./data/train.jsonl")
-    train_dl = NounChunkDataLoader(train_ds, 4, True)
 
-    for batch in train_dl:
-        print(
-            batch["inputs"][0].shape,
-            len(batch["inputs"]),
-            len(batch["outputs"]),
-        )
-        break
+    train_ds = NounChunkDataset.from_file("./artifacts/data/train.jsonl")
+    num_correct = 0
+    for itm in train_ds:
+        if NounChunkDataset._filter(itm["tokens"], itm["pos_tags"], itm["chunk_tags"]):
+            num_correct += 1
+    print(f"Total examples: {len(train_ds)}, Num correct: {num_correct}")
+
+    test_ds = NounChunkDataset.from_file("./artifacts/data/test.jsonl")
+    num_correct = 0
+    for itm in test_ds:
+        if NounChunkDataset._filter(itm["tokens"], itm["pos_tags"], itm["chunk_tags"]):
+            num_correct += 1
+    print(f"Total examples: {len(test_ds)}, Num correct: {num_correct}")
